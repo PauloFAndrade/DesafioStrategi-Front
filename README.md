@@ -82,7 +82,7 @@ $  `npm install`
 # Execute a aplicação 
 $ `npm start`
 
-# A aplicação inciará na porta:3000 por padrão - acesse <http://localhost:3000> 
+# A aplicação iniciará na porta:3000 por padrão, recomendo que faça primeiro a parte do backend, pois o back roda na porta 3000 - acesse <http://localhost:3000> 
 
 ---
 
