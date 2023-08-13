@@ -1,0 +1,26 @@
+.toast-success-container {
+    z-index: 1;
+    position: fixed;
+    top: 5em;
+    right: 11em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30em;
+
+    padding: 1em;
+  
+    background: #C3D4FE;
+    
+    border-radius: 1em;
+    
+    p {
+      padding: 1em 0;
+      margin: auto 0;
+      color: #243F80;;
+      font-family: roboto;
+      font-weight: bold;
+      font-size: large;
+    }
+  }
+  

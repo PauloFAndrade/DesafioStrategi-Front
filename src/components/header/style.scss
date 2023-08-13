@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+
+    position:sticky;
+    top:-0.9em;
+
+    height: 10em;
+
+    background-color: black;
+
+    //margin-bottom: 4em;
+    
+    img{
+        max-width: 21em;
+        margin-left: 6em;
+
+        cursor: pointer;
+    }
+
+    ul {
+        display: flex;
+        margin-right: 6em;
+
+        li {
+    
+            list-style-type: none;
+            margin-right: 3em;
+            text-decoration: none;
+
+            h2 {
+              
+                color: white;
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,12 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url('https://picsum.photos/id/1048/2048/1024.jpg?hmac=N5TZKe4gtmf4hU8xRs-zbS4diYiO009Jni7n50609zk');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+}

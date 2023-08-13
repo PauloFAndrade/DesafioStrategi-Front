@@ -1,0 +1,34 @@
+.card-imoveis {
+    display: flex;
+    //flex-direction: column;
+
+    margin:1em;
+    //margin-left: 9em;
+
+    //width: 27em;
+    border-radius: 1em;
+    box-shadow: 0 0 1em black;
+    
+    &:hover {
+        zoom: 1.01;
+        background-color:#e4e4e4 ;
+    }
+
+    background-color: #FAFAFA;
+
+    h2{
+       margin: 0.3em;
+    }
+
+    img {
+        margin-bottom: 1em;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+    }
+
+    cursor: pointer;
+}
+
+.icon-imoveis{
+    margin-right: 0.5em;
+}
