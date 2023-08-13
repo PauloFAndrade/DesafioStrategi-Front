@@ -15,7 +15,6 @@ function Header({actualPage}) {
     });
 
     function disableNextPages(pageName) {
-        console.log('Desabilitando, Pagina Atual -> ' + pageName)
         setPageButtonsEnabled(prevState => ({
             ...prevState,
             simulacao: pageName === 'imoveis',
@@ -23,10 +22,6 @@ function Header({actualPage}) {
             resumo: pageName === 'imoveis' || pageName === 'simulacao' || pageName === 'clientes',
         }));
     }
-
-    useEffect(() => {
-        console.log(pageButtonsEnabled)
-    }, [pageButtonsEnabled])
 
     useEffect(() => {
         disableNextPages(actualPage);
