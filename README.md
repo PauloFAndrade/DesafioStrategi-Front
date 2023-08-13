@@ -3,7 +3,7 @@
 ## Sobre
 -Esta é a documentação do frontend do desafio.
 
-- O repositório para o backend desse desafio pode ser encontrado neste [link](https://github.com/hatigo/desafio-tecnico-strategi-backend)
+- O repositório para o backend desse desafio pode ser encontrado neste [link](https://github.com/PauloFAndrade/DesafioStrategi-Back)
 
 ---
 
