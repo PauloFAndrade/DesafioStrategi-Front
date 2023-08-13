@@ -56,7 +56,6 @@ Tabela de conteúdos
 - [x] Consultar clientes.
 - [x] Consultar imóveis.
 - [x] Cadastro de vendas.
-
 --- 
 
 # Como usar:
@@ -73,11 +72,9 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ## Rodando o Projeto
 
 # Clone este repositório
-$ `git clone <https://github.com/hatigo/desafio-tecnico-strategi-frontend>`
+$ `git clone <https://github.com/PauloFAndrade/DesafioStrategi-Front>`
 
 # Acesse a pasta do projeto no terminal/cmd
-$ `cd desafio-tecnico--thiago-lucas-mendonca-ferreira-frontend`
-
 
 # Instale as dependências
 $  `npm install`
@@ -85,8 +82,7 @@ $  `npm install`
 # Execute a aplicação 
 $ `npm start`
 
-# A aplicação inciará na porta:3000 - acesse <http://localhost:3000> 
-
+# A aplicação inciará na porta:3000 por padrão - acesse <http://localhost:3000> 
 
 ---
 
@@ -312,23 +308,10 @@ Caso dê tudo certo com a exclusão do cadastro do cliente, aparecerá uma mensa
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-
 - [React.js](https://pt-br.reactjs.org/)
 - [Sass](https://sass-lang.com/)
+- [Tailwind](https://tailwindcss.com/)
 
 ---
 
-
-### Autor
----
-
-<a href="https://github.com/hatigo">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/18693568?v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Thiago Ferreira</b></sub></a> <a href="https://github.com/hatigo" title="Rocketseat"></a>
-
-
-Feito por Thiago Ferreira
-
- [![Linkedin Badge](https://img.shields.io/badge/-ThiagoFerreira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thiago-lucas-mendon%C3%A7a-ferreira/)](https://www.linkedin.com/in/thiago-lucas-mendon%C3%A7a-ferreira/) 
-[![Gmail Badge](https://img.shields.io/badge/-thiagoferreira.dev.br@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thiagoferreira.dev.br@gmail.com)](mailto:thiagoferreira.dev.br@gmail.com)
+Feito por Paulo Vitor Fernandes Andrade
