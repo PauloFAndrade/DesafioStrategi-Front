@@ -19,7 +19,7 @@ function CardCadastroCliente({ setOpenModal, getClientes }) {
 
     async function handleReativarCliente(){
         try {
-            const response = await fetch(`http://localhost:3000/cliente-reativar/${id}`, {
+            const response = await fetch(`http://localhost:3001/cliente-reativar/${id}`, {
                 method: "PUT",
                 headers: {
                     Authorization: `Bearer ${token}`
@@ -92,7 +92,7 @@ function CardCadastroCliente({ setOpenModal, getClientes }) {
 
         try {
 
-            const checkUser = await fetch('http://localhost:3000/cliente-check', {
+            const checkUser = await fetch('http://localhost:3001/cliente-check', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -111,7 +111,7 @@ function CardCadastroCliente({ setOpenModal, getClientes }) {
                 return;
             }
 
-            const response = await fetch('http://localhost:3000/cliente-cadastro', {
+            const response = await fetch('http://localhost:3001/cliente-cadastro', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
