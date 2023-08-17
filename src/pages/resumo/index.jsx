@@ -40,7 +40,7 @@ function Resumo() {
         };
 
         try {
-            const response = await fetch('http://localhost:3000/vendas-cadastro', {
+            const response = await fetch('http://localhost:3001/vendas-cadastro', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -57,7 +57,7 @@ function Resumo() {
             }
             toast.success(data.success)
 
-            const desativarImovel = await fetch(`http://localhost:3000/imoveis/${newVenda.id_imovel}`, {
+            const desativarImovel = await fetch(`http://localhost:3001/imoveis/${newVenda.id_imovel}`, {
                 method: "DELETE",
                 headers: {
                     Authorization: `Bearer ${token}`
