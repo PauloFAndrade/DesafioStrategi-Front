@@ -15,15 +15,6 @@ function Resumo() {
     const { imovel,
         pagamento,
         cliente,
-        corretor,
-        setErrorMessage,
-        errorMessage,
-        setError,
-        error,
-        successMessage,
-        setSuccessMessage,
-        setSuccess,
-        success,
         token
     } = useUser();
 
