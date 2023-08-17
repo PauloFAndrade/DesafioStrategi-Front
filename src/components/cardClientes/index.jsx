@@ -6,7 +6,8 @@ import useUser from "../../hooks/useUser";
 import ModalEditDelete from "../modalEditDelete";
 import "./style.scss";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
-
+import dayjs from 'dayjs';
+import 'dayjs/locale/pt-br'
 
 
 function CardClientes({ nome, email, dataCadastro, id , cpf, telefone, urlDaFoto, getClientes}) {
@@ -14,8 +15,7 @@ function CardClientes({ nome, email, dataCadastro, id , cpf, telefone, urlDaFoto
     const navigate = useNavigate();
     const [openModalEditDelete, setOpenModalEditDelete] = useState(false);
 
-    const correctDate = new Date(dataCadastro);
-    const dataDeCadastro = correctDate.getDate() + "/" + (correctDate.getMonth() + 1) + "/" + correctDate.getFullYear();
+    const dataDeCadastro = dayjs(dataCadastro.substr(0,10)).format('DD/MM/YYYY')
 
     function handleClientes() {
 
