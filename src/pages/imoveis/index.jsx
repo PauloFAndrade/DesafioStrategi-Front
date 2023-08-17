@@ -59,7 +59,7 @@ function Imoveis() {
         async function getImoveis() {
 
             try {
-                const response = await fetch('http://localhost:3000/imoveis', {
+                const response = await fetch('http://localhost:3001/imoveis', {
                     method: "GET",
                     headers: {
                         Authorization: `Bearer ${token}`
