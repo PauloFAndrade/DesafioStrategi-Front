@@ -64,7 +64,7 @@ Tabela de conteúdos
 
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Docker](https://www.docker.com/)
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 
@@ -76,13 +76,14 @@ $ `git clone <https://github.com/PauloFAndrade/DesafioStrategi-Front>`
 
 # Acesse a pasta do projeto no terminal/cmd
 $ `cd DesafioStrategi-Front`
-# Instale as dependências
-$  `npm install`
 
-# Execute a aplicação 
-$ `npm start`
+# Gere a imagem com o dockerfile
+$  `docker build -f Dockerfile -t desafiostrategi-front .`
 
-# A aplicação iniciará na porta:3000 por padrão, recomendo que faça primeiro a parte do backend, pois o back roda na porta 3000 - acesse <http://localhost:3000> 
+# Inicie o container com a imagem gerada 
+$ `docker run -it -p 3000:3000 desafiostrategi-front`
+
+# A aplicação iniciará na porta:3000 - acesse <http://localhost:3000> 
 
 ---
 
