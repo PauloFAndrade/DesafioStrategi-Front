@@ -20,7 +20,7 @@ function CardDeleteCliente({ setOpenDeletemodal, getClientes }) {
     async function excluirCliente() {
 
         try {
-            const response = await fetch(`http://localhost:3000/clientes/${cliente.id}`, {
+            const response = await fetch(`http://localhost:3001/clientes/${cliente.id}`, {
                 method: "DELETE",
                 headers: {
                     Authorization: `Bearer ${token}`
