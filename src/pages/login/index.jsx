@@ -28,12 +28,7 @@ function Login() {
       const data = await response.json();
 
       if (!data.success) {
-        setErrorMessage(data.error);
-        setError(true);
         toast.error(data.error)
-        setTimeout(() => {
-          setError(false)
-        }, 3000);
         return;
       }
 
