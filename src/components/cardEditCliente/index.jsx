@@ -75,7 +75,7 @@ function CardEditCliente({ setOpenEditmodal, getClientes }) {
         }
 
         try {
-            const response = await fetch('http://localhost:3000/cliente-edicao', {
+            const response = await fetch('http://localhost:3001/cliente-edicao', {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",
