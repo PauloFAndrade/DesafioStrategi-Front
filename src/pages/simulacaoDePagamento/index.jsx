@@ -13,7 +13,6 @@ function Simulacao() {
     const navigate = useNavigate();
     const [aPrazoChecked, setAPrazoChecked] = useState(false);
     const [aVistaChecked, setAVistaChecked] = useState(true);
-    const teste = true;
 
     const parcela = imovel.valorDaVenda && ((imovel.valorDaVenda.split(" ")[1].split(".").join("").split(",")[0]) / 180).toLocaleString('pt-br', { style: 'currency', currency: 'BRL' });
 
